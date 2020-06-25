@@ -12,10 +12,10 @@
 
 **Usage**
 - Install the dependencies
-pip install -r requirement.txt
+ # pip install -r requirement.txt
 
 - Generate the Yolov5-xlarge model, convert the model in ONNX and export the model using torchscript
-python main_file.py
+# python main_file.py
 
 
 **REFRENCES**`
