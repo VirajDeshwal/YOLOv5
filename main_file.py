@@ -1,5 +1,6 @@
 from model_class import Model 
 import torch
+import os
 
 #config file path
 config_file = 'models/yolov5x.yaml'
@@ -10,6 +11,8 @@ device = torch.device('cpu')
 yolov5_xlarge_model = Model(config_file).to(device)
 yolov5_xlarge_model.eval()
 print('Loaded the model...')
+
+
 
 
 ### Converting the model to ONNX format...
@@ -26,8 +29,12 @@ torch.onnx.export(yolov5_xlarge_model, dummy_input,
 	output_names = ['output'])
 
 print('ONNX conversion done ....')
-print('tracing the model...')
 
+#creating the directory to save the weights
+if not os.path.exists('weights'):
+	os.makedirs('weights')
+
+print('tracing the model...')
 traced_yolo = torch.jit.trace(yolov5_xlarge_model, dummy_input)
 
 traced_yolo.save("weights/yolo_jit.pt")
