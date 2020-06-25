@@ -1,8 +1,4 @@
-<a href="https://apps.apple.com/app/id1452689527" target="_blank">
-<img src="https://user-images.githubusercontent.com/26833433/82944393-f7644d80-9f4f-11ea-8b87-1a5b04f555f1.jpg" width="1000"></a>
-&nbsp
 
-This repository represents Ultralytics open-source research into future object detection methods, and incorporates our lessons learned and best practices evolved over training thousands of models on custom client datasets with our previous YOLO repository https://github.com/ultralytics/yolov3. **All code and models are under active development, and are subject to modification or deletion without notice.** Use at your own risk.
 
 <img src="https://user-images.githubusercontent.com/26833433/84200349-729f2680-aa5b-11ea-8f9a-604c9e01a658.png" width="1000">** GPU Latency measures end-to-end latency per image averaged over 5000 COCO val2017 images using a V100 GPU with batch size 32, and includes image preprocessing, PyTorch FP32 inference, postprocessing and NMS.
 
@@ -93,18 +89,3 @@ To access an up-to-date working environment (with all dependencies including CUD
 ## Citation
 
 [![DOI](https://zenodo.org/badge/146165888.svg)](https://zenodo.org/badge/latestdoi/146165888)
-
-
-## About Us
-
-Ultralytics is a U.S.-based particle physics and AI startup with over 6 years of expertise supporting government, academic and business clients. We offer a wide range of vision AI services, spanning from simple expert advice up to delivery of fully customized, end-to-end production solutions, including:
-- **Cloud-based AI** surveillance systems operating on **hundreds of HD video streams in realtime.**
-- **Edge AI** integrated into custom iOS and Android apps for realtime **30 FPS video inference.**
-- **Custom data training**, hyperparameter evolution, and model exportation to any destination.
-
-For business inquiries and professional support requests please visit us at https://www.ultralytics.com. 
-
-
-## Contact
-
-**Issues should be raised directly in the repository.** For business inquiries or professional support requests please visit https://www.ultralytics.com or email Glenn Jocher at glenn.jocher@ultralytics.com. 
