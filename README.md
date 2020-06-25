@@ -1,8 +1,8 @@
 # This repository shows the implementation of Yolov5 and also the export of Yolov5 in [ONNX](https://onnx.ai/) and [Torchscript](https://pytorch.org/docs/stable/jit.html) for Mobile Devices. 
 
-** This Repository shows the example of 4 Yolov5 Version as well the conversion to [ONNX](https://onnx.ai/) and CoreML(experimental). **
+**This Repository shows the example of 4 Yolov5 Version as well the conversion to [ONNX](https://onnx.ai/) and CoreML(experimental).**
 
-** Versions of Yolov5 **
+**Version of Yolov5**
 - 1. Yolov5-small
 - 2. Yolov5 - medium
 - 3. Yolov5 - large
@@ -18,4 +18,4 @@
 
 
 
-
+https://github.com/ultralytics/yolov5
