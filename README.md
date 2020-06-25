@@ -8,7 +8,7 @@
 - 3. Yolov5 - large
 - 4. Yolov5 - xlarge
 
-**IN THIS REPOSITORY I HAVE MAINLY FOCUSED ON YOLOv5-XLarge. Feel Free to experiment by chanding the config file.**
+**IN THIS REPOSITORY I HAVE MAINLY FOCUSED ON YOLOv5-XLarge. Feel Free to experiment by changing the config file.**
 
 **Usage**
 - Install the dependencies
