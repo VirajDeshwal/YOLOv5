@@ -10,6 +10,13 @@
 
 **IN THIS REPOSITORY I HAVE MAINLY FOCUSED ON YOLOv5-XLarge. Feel Free to experiment by chanding the config file.**
 
+**Usage**
+- Install the dependencies
+pip install -r requirement.txt
+
+- Generate the Yolov5-xlarge model, convert the model in ONNX and export the model using torchscript
+python main_file.py
+
 
 **REFRENCES**`
 - The Main credit goes to the originial author of Yolov5 [Glenn Jocher](https://github.com/ultralytics) 
